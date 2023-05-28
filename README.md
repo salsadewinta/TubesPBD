@@ -21,5 +21,7 @@ Jalankan command berikut di terminal Visual Code(ctrl+`)
 4. install nodemon port
 > npm install -g nodemon
 
+5. running port
+> nodemon src/index.js
 
 Buka dengan port localhost:3000 di web browser.
