@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'SoDoSans';
+  src: url('https://www.sbuxcard.com/css/fonts/SoDoSans-Regular.woff2') format('woff2'), url('fonts/SoDoSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family:'SoDoSans';src:url('https://www.sbuxcard.com/css/fonts/SoDoSans-Bold.woff2') format('woff2'), url('fonts/SoDoSans-Bold.woff') format('woff');font-weight:bold;
+}
+
+@font-face {
+  font-family:'SoDoSans';src:url('https://www.sbuxcard.com/css/fonts/SoDoSans-Italic.woff2') format('woff2'), url('fonts/SoDoSans-Italic.woff') format('woff');font-style:italic;
+}
+
+@font-face {
+  font-family:'SoDoSans';src:url('https://www.sbuxcard.com/css/fonts/SoDoSans-BoldItalic.woff2') format('woff2'), url('fonts/SoDoSans-BoldItalic.woff') format('woff');font-weight:bold;font-style:italic;
+}
+body {
+  background: #fff;
+  color: #000;
+  font: .875em 'SoDoSans',sans-serif;
+  line-height: 1.714286;
+}

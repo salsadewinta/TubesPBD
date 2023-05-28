@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/daftar.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <title>Register</title>
+</head>
+
+<body>
+  <div class="atas">
+    <p>.</p>
+  </div>
+  <section>
+    <header>
+      <a href=""><img class="logo" src="/img/logo.png"></a>
+      <ul class="navigation">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+        <h2>Create a Starbucks Account</h2>
+        <br>
+        <h2>Please input your account information</h2>
+        <br>
+        <p class="have">You'll need these to sign in to your Starbucks account.</p>
+        <br>
+        <hr>
+        <div class="form">
+          <form action="/register" method="post">
+            <label for="name">Name<span>*</span></label><br>
+            <input class="kotak" type="name" size="60px" name="name"><br>
+            <br>
+            <label for="email">Email Address <span>*</span></label><br>
+            <input class="kotak" type="email" size="60px" name="email"><br>
+            <br>
+            <label for="password">Password <span>*</span></label><br>
+            <input class="kotak" type="password" size="60px" name="password"><br>
+            <p class="it">Must be 12-18 characters. It must contains at least 1 each of Uppercase letter, Number and a
+              Special character</p>
+            <br>
+            <label for="myCheckbox">
+              <input type="checkbox" id="myCheckbox" name="myCheckbox" checked>
+              I wish to receive any direct marketing communications from Starbucks Indonesia
+            </label>
+            <label for="myCheckbox">
+              <input type="checkbox" id="myCheckbox" name="myCheckbox" checked>
+              I agree to <span class="terms">Terms & Conditions</span>
+            </label>
+            <br><br>
+            <input type="submit" value="Create Account">
+          </form>
+        </div>
+        <br>
+
+      </div>
+    </div>
+    <div class="pinggir">
+      <h4>what can i do with Starbucks account</h4>
+      <br>
+      <p>With Starbucks account you can register and manage your Starbucks Cards and participate in Starbucks Rewards
+      </p>
+      <br>
+      <p>Turn your purchases into Rewards and satrt enjoying exclusive benefits</p>
+      <br>
+      <p>Protect your balance if your Cards is lost/stolen/damaged</p>
+      <br>
+      <p>View your transaction story</p>
+      <br>
+      <p>Register multiple Cards</p>
+    </div>
+  </section>
+</body>
+
+</html>

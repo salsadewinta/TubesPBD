@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/login.css">
+  <link rel="stylesheet" href="/css/font.css">
+  <title>Log in</title>
+</head>
+
+<body>
+  <div class="atas">
+    <p>.</p>
+  </div>
+  <section>
+    <header>
+      <a href=""><img class="logo" src="/img/logo.png"></a>
+      <ul class="navigation">
+        <li><a href="/">Home</a></li>
+        <li><a href="/login.hbs">Login</a></li>
+        <li><a href="/register">Register</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+        <h2>Sign in or Create a Starbucks Account</h2>
+        <br>
+        <p class="have">I have a Starbucks account.</p>
+        <br>
+        <div class="form">
+          <form action="/login" method="post">
+            <label for="email">Email Address <span>*</span></label><br>
+            <input class="kotak" type="email" size="20px" name="email"><br>
+            <br>
+            <label for="password">Password <span>*</span></label><br>
+            <input class="kotak" type="password" size="20px" name="password"><br>
+
+            <a href="#">Forgot your <span> Password ? </span></a><br>
+            <br>
+            <input type="submit" value="Sig In">
+            <br><br><br>
+            <p class="teks">Sign in or Create a Starbucks Account <a href="/register">Here</a></p>
+          </form>
+        </div>
+        <br>
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

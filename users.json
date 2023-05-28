@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "64732054f66dc388f18658a7"
+  },
+  "name": "bissmilah",
+  "email": "bissmilah",
+  "password": "bissmilah",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647321ebf66dc388f18658a9"
+  },
+  "name": "nabila",
+  "email": "nabila",
+  "password": "nabila",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64732267d8fc11d447167a4e"
+  },
+  "name": "bissmila",
+  "email": "bissmilah123@gmail.com",
+  "password": "123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64732433d1570692dc866ecd"
+  },
+  "name": "bissmila",
+  "email": "bissmilah123@gmail.com",
+  "password": "123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647328e36d295b60440f278e"
+  },
+  "name": "bissmila",
+  "email": "bissmilah123@gmail.com",
+  "password": "123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64732f99027d4fe33bed99cb"
+  },
+  "name": "Salsa Dewinta",
+  "email": "salsadewinta3@gmail.com",
+  "password": "123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6473317359918b018f0b03bb"
+  },
+  "name": "Faiz",
+  "email": "faiz@gmail.com",
+  "password": "123",
+  "__v": 0
+}]

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SoDoSans', sans-serif;
+  line-height: 1.714286;
+}
+body {
+  overflow-x: hidden;
+  font: .875em 'SoDoSans',sans-serif;
+  line-height: 1.714286;
+}
+.atas {
+  background-color: #017143;
+  margin-bottom: -8px;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header {
+  position: absolute;
+  background-color: #edeeee;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  position: relative;
+  max-width: 60px;
+}
+header ul {
+  position: relative;
+  display: flex;
+  margin-right: 570px;
+}
+header ul li {
+  list-style: none;
+  display: flex;
+  margin-left: 30px;
+} 
+header ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 60px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.content {
+  position: relative; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textbox {
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+.form {
+  margin-top: 20px;
+}
+.form a {
+  text-decoration: none ;
+  color: black;
+}
+.form a span {
+  font-size: 1em;
+  color: #017143;
+}
+form span {
+  color: red;
+}
+input[type="submit"] {
+  background-color: #017143;
+  font-weight: bold;
+  color: white;
+  padding: 6px 6px;
+  border: none;
+  cursor: pointer;
+}
+.kotak {
+    margin: 0;
+    padding: 4px 6px;
+    border: 2px solid #edeeee;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #edeeee;
+    color: #000;
+    font-family: SoDoSans,sans-serif;
+    vertical-align: baseline;
+}
+.textbox p {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.teks a {
+  font-weight: bold;
+  color: #017143;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  /* border-color: #8bc34a; */
+  border-color: #017143;
+  outline: none;
+}
+
+@media(max-width: 991px) {
+  header ul li a {
+    display: none;
+  }
+  img.logo {
+    margin-left: -60px;
+  }
+  h2 {
+    margin-top: 30px;
+    margin-left: -60px;
+  }
+  .textbox .have {
+    margin-left: -60px;
+  }
+  form {
+    margin-left: -60px;
+  }
+}
