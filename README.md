@@ -3,7 +3,7 @@
 A. Database
 
 1. Buat database dengan nama dbsbux
-2. export users.json  
+2. export collection users.json  di dbsbux
 
 B. Running Program
 
