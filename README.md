@@ -1,5 +1,8 @@
 # TubesPBD
-Cara Menjalankan 
+
+A. Database
+1. Buat database dengan nama dbsbux
+2. export users.json  
 
 Hapus folder node_modules terlebih dahulu
 Jalankan command berikut di terminal Visual Code(ctrl+`)
@@ -14,5 +17,6 @@ Jalankan command berikut di terminal Visual Code(ctrl+`)
 
 4. install nodemon port
 > npm install -g nodemon
+
 
 Buka dengan port localhost:3000 di web browser.
