@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/menu.css">
+    <title>Admin</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+        }
+
+
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px 32px;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .button-edit {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button-hapus {
+            background-color: #d10000;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="atas">
+        <p>.</p>
+    </div>
+    <section class="induk">
+        <header>
+            <a href="/menu"><img class="logo" src="../img/logo.png"></a>
+            <ul class="navigation">
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/tum">Coffee</a></li>
+                <li><a href="/admin">Admin</a></li>
+                <li><a href="/logout" type="button" class="logout">Logout</a></li>
+            </ul>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Jumlah</th>
+                    <TH>Harga</TH>
+                    <TH>Menu</TH>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each admins}}
+                <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.name}}</td>
+                    <td>{{this.jumlah}}</td>
+                    <td>{{this.menu}}</td>
+                    <td>{{this.harga}}</td>
+                    <td>
+                        <a href="/edit/{{this.id}}" class="button-edit">Update</a>
+                        <a href="/hapus/{{this.id}}" class="button-hapus">Delete</a>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>

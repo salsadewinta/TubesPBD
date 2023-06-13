@@ -69,18 +69,6 @@ header ul li a {
   max-width: 510px;
   z-index: 1;
 }
-
-.beli{
-  position: absolute;
-  border-radius: 15px;
-  background-color: #d2a512;
-  padding: 8px 16px;
-  color: white;
-  font-weight: 500;
-  min-width: 44px;
-  min-width: 44px;
-}
-
 .image-text h2 {
   font-size: 24px;
 }
@@ -102,7 +90,6 @@ header ul li a {
 }
 .parent{
 display: flex;
-color: white;
 }
 .child1{
   float: left;
@@ -114,7 +101,7 @@ color: white;
   float:right;
 }
 .bgc1{
-  width: 60%;
+  width: 95%;
   /* filter: blur(10px); */
   /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 0px), 50% 100%, 0 calc(100% - 0px)); */
 }
@@ -126,13 +113,18 @@ color: white;
   padding: 80px;
 }
 
-.logout{
-  position: absolute;
-  border-radius: 15px;
-  background-color: #dd2c15;
-  padding: 4px 8px;
+.parent1 {
+  display: flex;
+  margin-top: -103px;
+  background-size: cover;
+}
+
+.bgc2 {
+  width: 90%;
+}
+
+.tombol {
+  background-color: #4CAF50;
+  text-decoration: none;
   color: white;
-  font-weight: 400;
-  min-width: 44px;
-  min-width: 44px;
 }

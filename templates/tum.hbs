@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .menu-item {
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+
+        .menu-item h3 {
+            margin-top: 10px;
+            color: #333333;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .menu-item button {
+            background-color: #017143;
+            margin: 5px;
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        .logout {
+            position: absolute;
+            border-radius: 15px;
+            background-color: #dd2c15;
+            padding: 4px 8px;
+            color: white;
+            font-weight: 400;
+            min-width: 44px;
+            min-width: 44px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/daftar.css">
+    <title>Drink Menu's</title>
+</head>
+
+<body class="bcg" background="../img/bg1.jpg">
+    <div class="atas">
+        <p>.</p>
+    </div>
+    <section class="induk">
+        <header>
+            <a href="/menu"><img class="logo" src="../img/logo.png"></a>
+            <ul class="navigation">
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/tum">Coffee</a></li>
+                <li><a href="/admin">Admin</a></li>
+                <li><a href="/logout" type="button" class="logout">Logout</a></li>
+            </ul>
+        </header>
+        <br>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="../img/americano.jpg" alt="Gambar 1">
+                <h3>Americano</h3>
+                <button><a href="/beli_americano">pesan</a></button>
+            </div>
+            <div class="menu-item">
+                <img src="../img/img1.png" width="10px" height="10px" alt="Gambar 2">
+                <h3>Matcha Macchiato</h3>
+                <button><a href="/beli_matcha">pesan</a></button>
+            </div>
+            <div class="menu-item">
+                <img src="../img/bgc3.jpg" alt="Gambar 3">
+                <h3>Caramel Macchiato</h3>
+                <button><a href="/beli_caramel">pesan</a></button>
+            </div>
+            <div class="menu-item">
+                <img src="../img/flat.jpg" alt="Gambar 4">
+                <h3>Flat White</h3>
+                <button><a href="/beli_white">pesan</a></button>
+            </div>
+            <div class="menu-item">
+                <img src="../img/cold.jpg" alt="Gambar 5">
+                <h3>Cold Foam</h3>
+                <button><a href="/beli_foam">pesan</a></button>
+            </div>
+            <div class="menu-item">
+                <img src="../img/latte.jpg" alt="Gambar 6">
+                <h3>Coffe Late</h3>
+                <button><a href="/beli_latte">pesan</a></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/daftar.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <title>Edit Data</title>
+</head>
+
+<body>
+    <div class="atas">
+        <p>.</p>
+    </div>
+    <section>
+        <header>
+            <a href=""><img class="logo" src="/img/logo.png"></a>
+            <ul class="navigation">
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/tum">Coffee</a></li>
+                <li><a href="/admin">Admin</a></li>
+                <li><a href="/logout" type="button" class="logout">Logout</a></li>
+            </ul>
+        </header>
+        <br>
+        <div class="content">
+            <div class="textbox">
+                <h2>Pesan Sekarang!</h2>
+                <br>
+                <hr>
+                <div class="form">
+                    <form action="/edit/{{data.id}}" method="POST">
+                        <label for="id">ID<span>*</span></label><br>
+                        <input class="kotak" type="id" size="60px" name="id" value="{{data.id}}" readonly><br>
+                        <br>
+                        <label for="name">Name<span>*</span></label><br>
+                        <input class="kotak" type="name" size="60px" name="name" value="{{data.name}}"><br>
+                        <br>
+                        <label for="jumlah">Jumlah<span>*</span></label><br>
+                        <input class="kotak" type="jumlah" size="60px" name="jumlah" value="{{data.jumlah}}"><br>
+                        <br>
+                        <label for="menu">Pesananmu<span>*</span></label><br>
+                        <input class="kotak" type="menu" size="60px" name="menu" value="{{data.menu}}"><br>
+                        <br>
+                        <label for="harga">Harga<span>*</span></label><br>
+                        <input class="kotak" type="harga" size="60px" name="harga" value="{{data.harga}}"><br>
+                        <br>
+                        <br><br>
+                        <input type="submit" value="Update">
+                    </form>
+                </div>
+                <br>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
